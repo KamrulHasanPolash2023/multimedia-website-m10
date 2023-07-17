@@ -64,8 +64,8 @@
 
 /*mulit-logo-section*/
 .Multi-logo-holder>div{
-    background-color: rgb(229, 255, 255);
     border: 1px solid black;
+    fill: linear-gradient(135deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
     justify-content: center;
     padding: 25px 50px;
     margin-right:180px;
@@ -122,6 +122,7 @@ gap: 85px;
 
 }
 
-.icon{
+.footer-icon{
     color:white;
+    background-color: aliceblue;
 }
