@@ -3,3 +3,78 @@
 *{  font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/*Nav section*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding:15px 120px ;
+}
+
+.navbar >div ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+
+    
+}
+.navbar >div ul a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-icon{
+    justify-content: space-around;
+    padding-right: 50px;
+}
+
+
+
+
+/*banner Saction*/
+.banner-Container{
+    display: flex;
+    padding:15px 120px;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-between;
+    padding:15px 120px ;
+}
+.h1{
+    font-size: 3rem ;
+}
+
+.first-btn{
+    background-color: rgb(252, 0, 0);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.main-cam{
+    background-image: url('./images/Circle\ design.svg');
+}
+
+
+/*mulit-logo-section*/
+.Multi-logo-holder>div{
+    background-color: rgb(229, 255, 255);
+    border: 1px solid black;
+    justify-content: center;
+    padding: 25px 50px;
+    margin-right:180px;
+    margin-left: 180px;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+.sppnsors-logo{
+    padding-right: 45px;
+}
