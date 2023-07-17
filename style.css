@@ -78,3 +78,15 @@
 .sppnsors-logo{
     padding-right: 45px;
 }
+
+
+/* card section*/
+.card-item{
+    height: 470px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(227, 227, 227);
+    padding:12px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.433);
+    
+}
