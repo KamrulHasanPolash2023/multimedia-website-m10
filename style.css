@@ -81,6 +81,19 @@
 
 
 /* card section*/
+.card-heading{
+   text-align: center;
+   padding-bottom: 30px;
+
+}
+.card-holder{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 230px;
+    margin-right: 230px;
+    gap: 20px;
+
+}
 .card-item{
     height: 470px;
     width: 300px;
@@ -89,4 +102,26 @@
     padding:12px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.433);
     
+    
+}
+/*fetured section*/
+.fetured-holder{
+display:flex;
+margin: 90px 120px;
+align-items: center;
+gap: 85px;
+
+}
+
+
+.footer{
+    text-align: center;
+    margin: 50px 0px;
+    background-color: black;
+    color: white;
+
+}
+
+.icon{
+    color:white;
 }
