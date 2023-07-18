@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 15px;
-    padding:15px 120px ;
+    padding:15px 120px;
 }
 
 .navbar >div ul{
@@ -106,10 +106,10 @@
 }
 /*fetured section*/
 .fetured-holder{
-display:flex;
-margin: 90px 120px;
-align-items: center;
-gap: 85px;
+    display:flex;
+    margin: 90px 120px;
+    align-items: center;
+    gap: 85px;
 
 }
 
@@ -125,4 +125,43 @@ gap: 85px;
 .footer-icon{
     color:white;
     background-color: aliceblue;
+}
+
+
+
+/*media-section for mobile*/
+@media screen and (max-width: 576px){
+    
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding:10px 10px ;
+    }
+    
+    .navbar >div ul{
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+}
+.banner-Container{
+    flex-direction: row-reverse;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-top: 10px;
+    text-align: center;
+}
+.main-cam{
+    width:250px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('./images/Circle\ design.svg'); 
+    align-items: center;
+ 
+}
 }
